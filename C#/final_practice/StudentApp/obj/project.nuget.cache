@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "263JHUIk94A=",
+  "success": true,
+  "projectFilePath": "/home/charlie/Documents/01_UTK_spring_2026/cs365/C#/final_practice/StudentApp/StudentApp.csproj",
+  "expectedPackageFiles": [
+    "/home/charlie/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
