@@ -1,4 +1,4 @@
-# C#
+# C #
 
 - imperative
 - procedural
@@ -120,3 +120,56 @@ while (condition) {
 do {
 //body
 } while(condition)
+```
+
+## Object oriented classes in C #
+
+- Several Types of classes:
+  - abstract - class that cannot be instantiated but can be inherited.
+  - sealed - cannot be inherited
+  - interface - outline of a class with no actual implementation
+
+- Access Protection
+  - internal
+  - public
+  - protected
+  - private
+
+- Classes' methods definitions are written in the class
+  - virtual - method, property, or event that can be overridden by
+    a derived class
+  - NOTE: virtual methods invoke the derived method even when passed the base class.
+
+### Class Example
+  
+```
+class MyClass {
+  public MyClass() {
+    // constructor here
+  }
+  public string Name { get; set; } // property that is r/w 
+  private int Secret; // variable that is private 
+  public readonly int year; // Pubic readonly integer.
+}
+```
+
+## Class vs Struct
+
+- classes are reference based
+- structs are value based
+
+## Factory Pattern
+
+- Chaining multiple method calls together
+- requires methods to return a reference of the class.
+
+## Lambda Functions
+
+- syntax (parameters) => {return value;}
+
+## Task Async Pattern (TAP)
+
+- C# async functions calls are done with the keywords async and await
+  - These require using Task and Task<> objects from the System.Threading.Tasks
+
+- Barrier a synchronixation point that waits until all threads reach the barrier. Threads can be async before and after the barrier, but all threads will wait until all threads have reached the barrier.
